@@ -127,7 +127,7 @@ select *, (PeopleVaccinated/ Population)*100 as vacpercentage
 from #PercofPeopleVac
 order by 1,2
 
-Creating views for visualizations
+--Creating views for visualizations
 
 Create View PeopleVac as 
 select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations, 
